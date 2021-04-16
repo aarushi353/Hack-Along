@@ -13,3 +13,6 @@ def hackathons(request):
 def register(request):
     return render(request, 'Register.html')
 
+def hackers(request):
+    return render(request, 'hackers.html')
+

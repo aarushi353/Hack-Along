@@ -1,5 +1,5 @@
-# HackAlong was built by Backbenchers as a part of HackOFiesta 2021. 
-# HackAlong is a website that helps you find teammates for hackathons.
+# HackAlong
+## HackAlong is a website that helps you find teammates for hackathons.It was built by TEAM Backbenchers as a part of HackOFiesta 2021. 
 
 ### Pre requisites: 
 Ensure that you have Python and pip installed on your device.

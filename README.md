@@ -47,8 +47,8 @@ Often we hold ourselves back or aren't able to realize our true potential all be
          <li>Neha Agarwal</li>
          <li>Aarushi Abrol</li>
          <li>Shreya Chopra</li>
-      
-    </ul>
+    </ul> 
+ 
             
 
 

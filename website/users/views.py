@@ -1,23 +1,6 @@
 from django.shortcuts import render, redirect
+from .models import Hacker
 
-hacker = [
-    {
-        'name': 'Ishaan',
-        'age': '19',
-        'college': 'Thapar University',
-        'skill_1': 'HTML',
-        'skill_2': 'CSS',
-        'skill_3': 'JS',
-    },
-    {
-        'name': 'Aarushi',
-        'age': '19',
-        'college': 'Thapar University',
-        'skill_1': 'Django',
-        'skill_2': 'UI/UX',
-        'skill_3': 'Bootstrap',
-    }
-]
 
 def home(request):
     return render(request, 'index.html')
@@ -37,7 +20,7 @@ def register(request):
 
 def hackers(request):
     context={ 
-        'hacker' : hacker
+        'hacker' : Hacker.objects.all()
     }
     return render(request, 'hackers.html', context)
 

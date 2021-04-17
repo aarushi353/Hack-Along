@@ -29,7 +29,7 @@ Often we hold ourselves back or aren't able to realize our true potential all be
     Step2:In the command prompt, create a virtual environment using the following steps.
           -->Go one folder back to where you have the project using " cd ".
           -->Make sure you have python and pip installed on your device.
-    Step3:Create the visrtual environment using these commands - 
+    Step3:Create the virtual environment using these commands - 
           -->python -m venv Hack-Along
           -->Hack-Along\Scripts\activate
     Step4:Now use the following commands-

@@ -54,6 +54,13 @@
       </nav><!-- .navbar -->
     </div>
 </header><!-- End Header -->
+      {% if messages %}
+      {% for message in messages%}
+      <div class="alert alert-{{ message.tags }}">
+        {{ message }}
+      </div>
+      {% endfor %}
+      {% endif %}
       {% block content %} {% endblock %}
        <!-- ======= Footer ======= -->
   <footer id="footer">

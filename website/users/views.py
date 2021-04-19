@@ -20,5 +20,5 @@ def chat(request):
     return render(request, 'chat.html')
 
 def profile(request):
-    return render(request, 'chat.html')
+    return render(request, 'profile.html')
 
